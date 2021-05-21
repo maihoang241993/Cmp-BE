@@ -39,6 +39,10 @@ dependencies {
 
 }
 
+task stage {
+    dependsOn bootRun
+}
+
 test {
     useJUnitPlatform()
 }
