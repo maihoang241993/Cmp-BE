@@ -1,0 +1,9 @@
+plugins {
+    id 'java'
+}
+
+subprojects {
+    apply plugin: 'java'
+}
+
+task stage(dependsOn: ['build', 'clean'])
