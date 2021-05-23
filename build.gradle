@@ -7,4 +7,3 @@ subprojects {
 }
 
 task stage(dependsOn: ['build', 'clean'])
-war.mustRunAfter clean
